@@ -17,8 +17,10 @@
 # and donuts(23) returns 'Number of donuts: many'
 
 def donuts(count):
-    # +++your code here+++
-    return
+    if count >= 10:
+        return "Number of donuts: many"
+   else:
+        return F"Number of donuts: {count}"
 
 
 # B. both_ends
